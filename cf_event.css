@@ -1,0 +1,28 @@
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Final Project
+   Filename: cf_event.css
+
+   This file contains the base styles used by all pages in the website
+
+*/
+
+
+blockquote#event1 {
+	text-align: center;
+	margin: 90px 0px 0px 0px;
+}
+
+blockquote#event2 {
+	text-align: center;
+	margin: 90px 0px 80px 0px;
+}
+
+dd {
+	margin: 10px 0px 10px 0px;
+}
+
+p {
+	margin-top: 30px;
+}

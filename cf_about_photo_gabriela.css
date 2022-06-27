@@ -1,0 +1,33 @@
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Final Project
+   Filename: cf_about_photo_gabriella.css
+
+   This file contains the photo styles used by all pages in the website
+
+*/
+
+figure {
+	border-style: solid;
+	border-width: 25px;
+	border-image: url(frame_2.png) 50 repeat;
+	box-shadow: 15px 15px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	margin-right: auto;
+	margin-left: 120px;
+	width: 52%;
+}
+
+figure img {
+	display: block;
+	width: 100%;
+}
+
+figure figcaption {
+	background-color: rgb(137, 184, 200);
+	font-style: italic;
+	color: white;
+	text-align: center;
+	padding: 11px 0px;
+}

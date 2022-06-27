@@ -1,0 +1,70 @@
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Final Project
+   Filename: cf_post.css
+
+   This file contains the photo styles used by all pages in the website
+
+*/
+
+footer {
+	clear: both;
+}
+
+footer::after{
+		clear: both;
+		content: "";
+	}
+
+table {
+	clear: both;
+}
+
+table::after {
+	clear: both;
+	content: "";
+}
+
+table {
+	border-collapse: collapse;
+	width: 50%;
+	margin: 0px 380px;
+	margin-bottom: 80px;
+}
+
+
+table tbody tr {
+	height: 500px;
+	text-align: center;
+}
+
+table thead tr {
+	height: 35px;
+	text-align: center;
+}
+
+
+table tfoot tr {
+	height: 0px;
+}
+
+th {
+	padding: 20px 0px;
+	line-height: 1.5em;
+}
+
+footer {
+	padding-bottom: 30px;
+	padding-top: 50px;
+}
+
+table th, table td {
+	background-color: white;
+}
+
+caption {
+	margin-top: 20px;
+	font-style: italic;
+	caption-side: bottom;
+	text-align: right;
+}

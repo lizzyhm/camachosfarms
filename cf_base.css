@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Final Project
+   Filename: cf_base.css
+
+   This file contains the base styles used by all pages in the website
+
+*/
+
+/* Main Structural Styles */
+
+html {
+	width: 95%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(head.png);
+}
+
+*{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color: #222;
+	background-color: rgb(225, 211, 199);
+	padding: 0;
+	margin: 0;
+}
+
+article, aside, details, dl, figcaption, figure, footer, header, hgroup, main, section, nav, ul {
+	display: block;
+}
+
+
+/* Heading Styles */
+
+h1 {
+	font-size: 35px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 70px;
+}
+
+
+/* Footer Styles */
+
+footer {
+	clear: both;
+}
+
+footer::after{
+		clear: both;
+		content: "";
+	}
+
+footer {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}

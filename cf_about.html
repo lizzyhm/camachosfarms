@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Final Project
+   
+   Camacho's Farms
+   Author: Elizabeth Herrera-Mendez
+   Date:   May 27,2022
+   
+   Filename: cf_about.html
+   
+   Location: Elizabeth HM - Final Project folder
+   
+   Supporting Files: 
+   Files Linked and page linked to:
+		cf_home 	| Elizabeth HM - Final Project folder
+		cf_about 	| Elizabeth HM - Final Project folder
+		cf_services | Elizabeth HM - Final Project folder
+		cf_prices 	| Elizabeth HM - Final Project folder
+		cf_events 	| Elizabeth HM - Final Project folder
+		cf_gallery 	| Elizabeth HM - Final Project folder
+		cf_contact 	| Elizabeth HM - Final Project folder
+		cf_posts 	| Elizabeth HM - Final Project folder
+   Files linked:
+   Where page is linked: 
+   -->
+   
+   <title>Camacho's Farms</title>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <link href="cf_base.css" rel="stylesheet" />
+   <link href="cf_about_photo.css" rel="stylesheet" />
+   <link href="cf_about_style.css" rel="stylesheet" />
+   <link href="cf_nav.css" rel="stylesheet" />
+   
+</head>
+
+<body>
+	<header>
+		<a href="cf_home.html"><img src="logo1.png" width="800" height="210.4" alt="Camacho's Farms" /></a>
+		<nav id="navigation">
+			<ul id="nav">
+				<li><a href="cf_home.html">Home</a></li>
+				<li><a href="cf_about.html">About Us</a></li>
+				<li><a href="cf_services.html">Our Services</a></li>
+				<li><a href="cf_prices.html">Prices</a></li>
+				<li><a href="cf_events.html">Upcoming Events</a></li>
+				<li><a href="cf_gallery.html">Gallery</a></li>
+				<li><a href="cf_contact.html">Contact Us</a></li>
+				<li><a href="cf_posts.html">Posts</a></li>
+			</ul>
+		</nav>
+	</header>
+	<table>
+		<colgroup>
+			<col id="bio" />
+			<col class="image" />
+		</colgroup>
+		<thead>
+			<tr>
+				<h1>About Us</h1>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th id="bio">
+					Camacho's Farms was founded during the COVID 19 pandemic 
+					in March of 2020. When we first started, the 20 acres of 
+					land that you see today was filled with tall grass and trash.
+					During the time of the pandemic, within the last two years we
+					have managed to clean this place up and now we are raising 
+					alpacas. We have four alpacas: Beretha, Kiki, Duchess and her 
+					baby Misti. We also have two dogs: Pluto and Goofy. To your
+					right you can see a picture of the family that started up this 
+					business. You can click or tap on one of the family member's
+					faces to learn more about them.
+				</th>
+				<td>
+					<figure>
+						<img src="family_photo.png" width="384" height="288" alt="family portrait" usemap="#family_map" />
+						<figcaption>(L-R): Gabriella, Gabriela, Hamilton, Elizabeth</figcaption>
+					</figure>
+					<map name="family_map">
+						<area shape="circle" coords="58, 147, 38" href="cf_about_gabriella.html" alt="Gabriella" />
+						<area shape="circle" coords="142, 197, 57" href="cf_about_gabriela.html" alt="Gabriela" />
+						<area shape="circle" coords="196, 133, 36" href="cf_about_hamilton.html" alt="Hamilton" />
+						<area shape="circle" coords="254, 179, 44" href="cf_about_elizabeth.html" alt="Elizabeth" />
+					</map>
+				</td>
+			</tr>
+			<tr>
+				<th id="moreinfo" colspan="2">
+					Below we have provided a way you can schedule a time to visit the farm. We are open on Saturdays
+					and Sundays. If you prefer a weekday rather than the weekend you may either send us an email or you can
+					fill out the form below and we will contact you as soon as we can.
+				</th>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+			</tr>
+		</tfoot>
+	</table>
+	<footer>
+		Camacho's Farms &#8226 1627 Sanders Rd., Stem, NC 27581 &#8226 <a href="mailto:camachos.farms@yahoo.com">camachos.farms@yahoo.com</a> &#8226 <a href="tel:+19194230152">(919) 423-0152</a>
+	</footer>
+</body>
+
+</html>

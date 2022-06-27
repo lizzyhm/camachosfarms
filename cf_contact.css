@@ -1,0 +1,32 @@
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Final Project
+   Filename: cf_contact.css
+
+   This file contains the base styles used by all pages in the website
+
+*/
+
+p#follow {
+	margin: 30px 0px 10px 0px;
+}
+
+iframe#facebook {
+	margin: 0px 0px 10px 0px;
+}
+
+p#call {
+	margin: 100px 0px 10px 0px;
+}
+
+p#email {
+	margin: 0px 0px 10px 0px;
+}
+
+p#visit {
+	margin: 100px 0px 10px 0px;
+}
+
+iframe#map {
+	margin: 0px 0px 150px 0px;
+}

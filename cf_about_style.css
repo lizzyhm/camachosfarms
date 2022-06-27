@@ -1,0 +1,82 @@
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Final Project
+   Filename: cf_about_style.css
+
+   This file contains the photo styles used by all pages in the website
+
+*/
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Final Project
+   Filename: cf_about_style_gabriella.css
+
+   This file contains the photo styles used by all pages in the website
+
+*/
+
+footer {
+	clear: both;
+}
+
+footer::after{
+		clear: both;
+		content: "";
+	}
+
+table {
+	clear: both;
+}
+
+table::after {
+	clear: both;
+	content: "";
+}
+
+
+caption {
+	caption-side: bottom;
+	font-size: .75em;
+	font-style: italic;
+	text-align: right;
+}
+
+
+table {
+	border-collapse: collapse;
+	width: 90%;
+	margin: 0px 75px;
+}
+
+col#bio {
+	width: 50%;
+}
+
+col.image {
+	width: 60%;
+}
+
+table tbody tr {
+	height: 90px;
+	text-align: center;
+}
+
+table th#bio {
+	padding: 0px 100px;
+	line-height: 1.5em;
+}
+
+table th#moreinfo {
+	padding: 0px 290px;
+	height: 150px;
+	line-height: 1.5em;
+}
+
+table thead tr {
+	height: 0px;
+}
+
+table tfoot tr {
+	height: 10px;
+}

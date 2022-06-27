@@ -1,0 +1,106 @@
+/*
+   New Perspectives on HTML and CSS, 7th Edition
+   Tutorial 7
+   Case Problem 2
+
+   Spice Bowl Forms Style Sheet
+
+   Filename: sb_forms.css
+
+*/
+
+/* Login Form Layout Styles */
+
+
+form#payment {
+   background-color: rgb(206, 141, 56);
+}
+
+fieldset {
+   border: none;
+   
+}
+
+legend {
+   background-color: rgb(206, 141, 56);
+   color: white;
+   font-size: 0.9em;
+   margin-bottom: 20px;
+   width: 100%;
+   padding-top: 8px;
+   padding-bottom: 8px;
+}
+
+
+/* Input and Label Styles */
+
+label {
+   display: block;
+   float: left;
+   clear: left;
+   font-size: 0.9em;
+   margin-bottom: 15px;
+   margin-right: 10px;
+   width: 180px;
+   text-align: right;
+   display: inline-block;
+}
+
+form#payment input, form#payment select {
+   display: block;
+   float: left;
+   background-color: white;
+   margin-bottom: 15px;
+}
+
+/* Radio Button Styles */
+
+label.cardLabel {
+   display: inline-block;
+   float: none;
+   width: auto;
+}
+
+label.cardLabel img {
+   border: 1px solid rgb(181, 181, 181);
+   box-shadow: rgb(51, 51, 51) 0px 0px 10px;
+}
+
+input[type='radio'] {
+   width: auto;
+   float: none;
+   clear: none;
+   margin-right: 15px;
+}
+
+
+
+/* Submit Button Styles */
+
+#buttons {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+input[type="submit"], input[type="reset"] {
+	margin-top: 10px;
+	padding: 5px;
+}
+
+input[type="submit"] {
+	margin-right: 35px;
+	margin-left: 650px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+	color: white;
+}
+
+#buttons input[type="submit"]:hover {
+	background-color: green;
+}
+
+#buttons input[type="reset"]:hover {
+	background-color: red;
+}

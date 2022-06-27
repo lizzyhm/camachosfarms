@@ -1,0 +1,29 @@
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Final Project
+   Filename: cf_home.css
+
+   This file contains the base styles used by all pages in the website
+
+*/
+
+nav ul#list li {
+	list-style-image: url(alpaca.png);
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 680px;
+}
+
+p {
+	padding-left: 350px;
+	padding-right: 350px;
+	padding-top: 30px;
+	line-height: 1.5em;
+}
+
+footer {
+	padding-bottom: 30px;
+	padding-top: 50px;
+}
