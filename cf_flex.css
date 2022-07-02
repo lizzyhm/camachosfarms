@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 5
+   Tutorial Case
+   
+   Author:   Elizabeth Herrera-Mendez
+   Date:     July 01,2022
+   
+   Filename: cf_flex.css
+   
+   This file contains the flex styles used in the Trusted Friends
+   Pre-K Classes page.
+
+*/
+
+
+/* ================
+   Base Flex Styles
+   ================
+*/
+body {
+	display: -webkit-flex;
+	display: flex;
+	
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+header, footer, article {
+	width: auto;
+}
+
+/* =========================
+   Mobile Styles: 0 to 480px 
+   =========================
+*/
+
+@media only screen and (max-width: 480px) {
+  
+	
+	footer {
+		-webkit-order: 100;
+		order: 100;
+	}
+	
+	nav.horizontal ul {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-flow: row nowrap;
+		flex-flow: row nowrap;
+	}
+
+	nav.horizontal li {
+		-webkit-flex: 1 1 auto;
+		flex: 1 1 auto;
+	}
+ 
+	
+	body > header > nav#navigation li {
+	
+	}
+}
+
+/* ============================================
+   Tablet Styles: 481px and greater 
+   ============================================
+*/
+
+@media only screen and (min-width: 481px) {
+	
+	nav#navigation ul {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-flow: row nowrap;
+		flex-flow: row nowrap;
+	}
+
+	nav#navigation li {
+		-webkit-flex: 1 1 auto;
+		flex: 1 1 auto;
+	}
+}
+
+/* ============================================
+   Desktop Styles: 769px and greater 
+   ============================================
+*/
+
+@media only screen and (min-width: 769px) {
+	
+	nav.horizontal ul {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-flow: row nowrap;
+		flex-flow: row nowrap;
+	}
+
+	nav.horizontal li {
+		-webkit-flex: 1 1 auto;
+		flex: 1 1 auto;
+	}
+}
+
+
+
